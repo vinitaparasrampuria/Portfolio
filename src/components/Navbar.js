@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { FiAward } from "react-icons/fi";
+import { AiOutlineSafetyCertificate } from "react-icons/ai";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -38,9 +39,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+       
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -94,17 +93,27 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
-                target="_blank"
-                rel="noreferrer"
+                 as={Link}
+                 to="/achievement"
+                 onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <FiAward style={{ marginBottom: "2px" }} /> Achievements
+              </Nav.Link>
+            </Nav.Item>
+            
+            <Nav.Item>
+              <Nav.Link
+                 as={Link}
+                 to="/certification"
+                 onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineSafetyCertificate style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Vinitaparasrampuria/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
