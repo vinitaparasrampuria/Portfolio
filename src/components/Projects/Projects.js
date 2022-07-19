@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import note from "../../Assets/Projects/Notes.PNG";
+import chat from "../../Assets/Projects/Chat.PNG";
+import snake from "../../Assets/Projects/Snake.PNG";
+import mmm from "../../Assets/Projects/MMM.PNG";
+import weather from "../../Assets/Projects/Weather.PNG";
+import hms from "../../Assets/Projects/hms.PNG";
 
 function Projects() {
   return (
@@ -23,68 +23,68 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={hms}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Hospital Management System (HMS)"
+              description="Created a unified platform for patients, doctors and admin to standardize hospital records, appointment booking and payment processing
+              with features like automatic patient ID generation, password encryption, appointment cancellation and automatic pdf bill generation."
+              ghLink="https://github.com/vinitaparasrampuria/Hospital-Management-System"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chat}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Chat Application"
+              description="Developed a group chatting system in Java where multiple users can connect to a common server and send messages to each other."
+              ghLink="https://github.com/vinitaparasrampuria/Chat-application-in-Java"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={snake}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Snake Game"
+              description="Developed Snake Game in Java with different levels which can be played online simultaneously by multiple users. Features such as login,
+              highest score and best time implemented using database"
+              ghLink="https://github.com/vinitaparasrampuria/Snake-Game-Java"
+                          
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={note}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Notes App"
+              description="Designed a web application for making notes, deleting and searching for notes, toggling dark mode and storing to local storage"
+              ghLink="https://github.com/vinitaparasrampuria/Notes-Application"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={weather}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Weather App"
+              description="Designed a weather application to get various temperature attributes from OpenWeatherMap API as per location entered by user."
+              ghLink="https://github.com/vinitaparasrampuria/Weather-Application"
+        
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={mmm}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Mentor mentee match app"
+              description="Built a website for best possible mentor-mentee matching having interactive features and appointment scheduling for Tech Alpharetta."
+              ghLink="https://github.com/vinitaparasrampuria/Mentor-Mentee-Match"
+    
             />
           </Col>
         </Row>
