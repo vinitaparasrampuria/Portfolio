@@ -10,9 +10,38 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Vinita Parasrampuria </span>
             from <span className="purple"> New York, US.</span>
-            <br />I am a graduate student pursuing Computer Engineering from           New York University.
+            <br />I am a graduate student pursuing Computer Engineering from New York University. My current CGPA os <span className="purple">3.95</span>.
+            <br />I have taken following courses:
             <br />
-            <br />
+            <ul>
+            <li className="Courses">
+               Data Structures and Algorithms
+            </li>
+            <li className="Courses">
+               Internet Architecture and Protocols
+            </li>
+            <li className="Courses">
+               Computer System Architecture
+            </li>
+            <li className="Courses">
+               Database Management Systems
+            </li>
+            <li className="Courses">
+               Java Programming
+            </li>
+            <li className="Courses">
+               Network Modeling and Analysis
+            </li>
+            <li className="Courses">
+               Machine Learning
+            </li>
+            <li className="Courses">
+               Network Security
+            </li>
+            <li className="Courses">
+               Probability and Stochastic Processes
+            </li>
+          </ul>
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
