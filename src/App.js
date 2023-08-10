@@ -7,7 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Achievement from "./components/Achievements/Achievement";
 import Certification from "./components/Certifications/Certifications";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+//import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
   Route,
@@ -40,7 +40,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          //<Route path="/resume" element={<Resume />} />
           <Route path="/achievement" element={<Achievement />} />
           <Route path="/certification" element={<Certification />} />
           <Route path="*" element={<Navigate to="/"/>} />
