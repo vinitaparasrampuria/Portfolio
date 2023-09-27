@@ -29,8 +29,7 @@ function Projects() {
               imgPath={ecommerce}
               isBlog={false}
               title="E-commerce analytics pipeline"
-              description=" Designed logical and relational models with over 50k data entries, ensuring data efficiency and accuracy through normalization, Developed ETL and CDC processes to seamlessly transfer data from OLTP databases to a DW, aligning it with the DW schema.Leveraged advanced database features such as partition tables, indexes, triggers, etc. to optimize data management and access.
-                Conducted extensive data analytics using Tableau to identify loss factors, resulting in improved marketing strategies and profits."
+              description=" Designed logical and relational models with over 50k data entries, ensuring data efficiency and accuracy through normalization, Developed ETL and CDC processes to seamlessly transfer data from OLTP databases to a DW, aligning it with the DW schema.Leveraged advanced database features such as partition tables, indexes, triggers, etc. to optimize data management and access. Conducted extensive data analytics using Tableau to identify loss factors, resulting in improved marketing strategies and profits."
               ghLink="https://github.com/vinitaparasrampuria/E-commerce"
               
             />
