@@ -8,6 +8,9 @@ import snake from "../../Assets/Projects/Snake.PNG";
 import mmm from "../../Assets/Projects/MMM.PNG";
 import weather from "../../Assets/Projects/Weather.PNG";
 import hms from "../../Assets/Projects/hms.PNG";
+import ecommerce from "../../Assets/Projects/Ecommerce.PNG";
+import lms from "../../Assets/Projects/LMS.PNG";
+import course from "../../Assets/Projects/Course.PNG";
 
 function Projects() {
   return (
@@ -21,13 +24,46 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+             <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce}
+              isBlog={false}
+              title="E-commerce analytics pipeline"
+              description=" Designed logical and relational models with over 50k data entries, ensuring data efficiency and accuracy through normalization, Developed ETL and CDC processes to seamlessly transfer data from OLTP databases to a DW, aligning it with the DW schema.Leveraged advanced database features such as partition tables, indexes, triggers, etc. to optimize data management and access.
+                Conducted extensive data analytics using Tableau to identify loss factors, resulting in improved marketing strategies and profits."
+              ghLink="https://github.com/vinitaparasrampuria/E-commerce"
+              
+            />
+          </Col>
+
+                 <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lms}
+              isBlog=Library Management System"
+              description="Developed a web application with logins for user and admin to issue book, reserve rooms, schedule seminar and exhibitions. Implemented features like forgot and change password, invoice generation and created a database management system to store data."
+              ghLink="https://github.com/vinitaparasrampuria/Library-Management-System"
+              
+            />
+          </Col>
+
+                
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={course}
+              isBlog={false}
+              title="CourseLink"
+              description="Leveraged Java springboot framework to create REST API endpoints for managing courses using Java MVC pattern. The API provides endpoints for CRUD operations using a MongoDB database connected using JPA with authentication using JWT."
+              ghLink="https://github.com/vinitaparasrampuria/CourseLink"
+              
+            />
+          </Col>
+
+                 <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hms}
               isBlog={false}
-              title="Hospital Management System (HMS)"
-              description="Created a unified platform for patients, doctors and admin to standardize hospital records, appointment booking and payment processing
-              with features like automatic patient ID generation, password encryption, appointment cancellation and automatic pdf bill generation."
+              title="Hospital Mangement System"
+              description="Created a unified platform for patients, doctors and admin to standardize hospital records, appointment booking and payment processing with features like automatic patient ID generation, password encryption, appointment cancellation and automatic pdf bill generation."
               ghLink="https://github.com/vinitaparasrampuria/Hospital-Management-System"
               
             />
