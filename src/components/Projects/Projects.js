@@ -8,9 +8,9 @@ import snake from "../../Assets/Projects/Snake.PNG";
 import mmm from "../../Assets/Projects/MMM.PNG";
 import weather from "../../Assets/Projects/Weather.PNG";
 import hms from "../../Assets/Projects/hms.PNG";
-import ecommerce from "../../Assets/Projects/Ecommerce.PNG";
-import lms from "../../Assets/Projects/LMS.PNG";
-import course from "../../Assets/Projects/Course.PNG";
+import ecommerce from "../../Assets/Projects/ecommerce.PNG";
+import lms from "../../Assets/Projects/lms.PNG";
+import course from "../../Assets/Projects/course.PNG";
 
 function Projects() {
   return (
