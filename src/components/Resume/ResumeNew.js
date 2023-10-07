@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/VINITA_RESUME.pdf";
+import pdf from "../../Assets/../Assets/RESUME_SDE.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/vinitaparasrampuria/portfolio/master/src/Assets/VINITA_RESUME.pdf";
+  "https://raw.githubusercontent.com/vinitaparasrampuria/portfolio/master/src/Assets/RESUME_SDE.pdf";
   
 
 function ResumeNew() {
